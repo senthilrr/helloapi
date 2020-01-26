@@ -7,7 +7,7 @@
 Issue the below Commands
 
 ```script
-cd node
+cd node [if downloading locally]
 npm install
 npm start
 ```
