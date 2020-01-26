@@ -21,13 +21,10 @@
 					"raw": "{ \n\t\"food_name\" : \"burger\",\n\t\"customer_name\" :\"raja\",\n\t\"food_qty\" : 5\n}"
 				},
 				"url": {
-					"raw": "https://2886795281-9000-frugo01.environments.katacoda.com/new_order",
+					"raw": "https://{{hostname}}/new_order",
 					"protocol": "https",
 					"host": [
-						"2886795281-9000-frugo01",
-						"environments",
-						"katacoda",
-						"com"
+						"{{hostname}}"
 					],
 					"path": [
 						"new_order"
@@ -52,13 +49,10 @@
 					"raw": "{ \n\t\"food_name\" : \"pizza\",\n\t\"customer_name\" :\"senthil\",\n\t\"food_qty\" : 10\n}"
 				},
 				"url": {
-					"raw": "https://2886795281-9000-frugo01.environments.katacoda.com/get_orders",
+					"raw": "https://{{hostname}}/get_orders",
 					"protocol": "https",
 					"host": [
-						"2886795281-9000-frugo01",
-						"environments",
-						"katacoda",
-						"com"
+						"{{hostname}}"
 					],
 					"path": [
 						"get_orders"
@@ -83,13 +77,10 @@
 					"raw": "{ \n\t\"food_qty\" : 3\n}"
 				},
 				"url": {
-					"raw": "https://2886795281-9000-frugo01.environments.katacoda.com/order/1",
+					"raw": "https://{{hostname}}/order/1",
 					"protocol": "https",
 					"host": [
-						"2886795281-9000-frugo01",
-						"environments",
-						"katacoda",
-						"com"
+						"{{hostname}}"
 					],
 					"path": [
 						"order",
@@ -115,13 +106,10 @@
 					"raw": "{ \n\t\"food_qty\" : 3\n}"
 				},
 				"url": {
-					"raw": "https://2886795281-9000-frugo01.environments.katacoda.com/order/2",
+					"raw": "https://{{hostname}}/order/2",
 					"protocol": "https",
 					"host": [
-						"2886795281-9000-frugo01",
-						"environments",
-						"katacoda",
-						"com"
+						"{{hostname}}"
 					],
 					"path": [
 						"order",
