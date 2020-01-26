@@ -16,7 +16,11 @@ npm start
 
 Pre-req: Get [postman](https://www.getpostman.com/downloads/) downloaded to local computer. 
 
-Go to folder "postmon" and use the collection file: helloAPI.postman_collection.json.
+Go to folder "postman" and use the collection file: helloAPI.postman_collection.json & environment file. 
+
+Once the Node project is running, grab the hostname from the katacode and update it in Dev -> hostname.
+
+Now invoke the Get, Post, patch, delete to get, create, update and delete the orders.  
 
 
 
