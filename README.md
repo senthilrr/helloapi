@@ -2,7 +2,7 @@
 
 # Create an API with Node. 
 
-1. Go to [Node Playground](https://www.katacoda.com/courses/nodejs/playground), create the two files found in "Node" directory 
+1. Go to <a href="https://www.katacoda.com/courses/nodejs/playground/" target="_blank">Node Playground</a>, create the two files found in "Node" directory 
 
 Issue the below Commands
 
