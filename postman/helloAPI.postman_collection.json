@@ -1,0 +1,136 @@
+{
+	"info": {
+		"name": "helloAPI",
+		"_postman_id": "0fe8e219-74d1-e305-2c1a-339c34f4244a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n\t\"food_name\" : \"burger\",\n\t\"customer_name\" :\"raja\",\n\t\"food_qty\" : 5\n}"
+				},
+				"url": {
+					"raw": "https://2886795281-9000-frugo01.environments.katacoda.com/new_order",
+					"protocol": "https",
+					"host": [
+						"2886795281-9000-frugo01",
+						"environments",
+						"katacoda",
+						"com"
+					],
+					"path": [
+						"new_order"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Orders",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n\t\"food_name\" : \"pizza\",\n\t\"customer_name\" :\"senthil\",\n\t\"food_qty\" : 10\n}"
+				},
+				"url": {
+					"raw": "https://2886795281-9000-frugo01.environments.katacoda.com/get_orders",
+					"protocol": "https",
+					"host": [
+						"2886795281-9000-frugo01",
+						"environments",
+						"katacoda",
+						"com"
+					],
+					"path": [
+						"get_orders"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update Order",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n\t\"food_qty\" : 3\n}"
+				},
+				"url": {
+					"raw": "https://2886795281-9000-frugo01.environments.katacoda.com/order/1",
+					"protocol": "https",
+					"host": [
+						"2886795281-9000-frugo01",
+						"environments",
+						"katacoda",
+						"com"
+					],
+					"path": [
+						"order",
+						"1"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Order",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n\t\"food_qty\" : 3\n}"
+				},
+				"url": {
+					"raw": "https://2886795281-9000-frugo01.environments.katacoda.com/order/2",
+					"protocol": "https",
+					"host": [
+						"2886795281-9000-frugo01",
+						"environments",
+						"katacoda",
+						"com"
+					],
+					"path": [
+						"order",
+						"2"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
